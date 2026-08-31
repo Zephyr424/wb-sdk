@@ -7,7 +7,7 @@
     "test": "node example.js"
   },
   "keywords": ["vocabulary", "spaced-repetition", "flashcards", "learning"],
-  "author": "Your Name",
+  "author": "Zephyr424",
   "license": "MIT",
   "repository": {
   "type": "git",
