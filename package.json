@@ -10,11 +10,11 @@
   "author": "Your Name",
   "license": "MIT",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yourusername/wb-sdk.git"
-  },
-  "bugs": {
-    "url": "https://github.com/yourusername/wb-sdk/issues"
-  },
-  "homepage": "https://github.com/yourusername/wb-sdk#readme"
+  "type": "git",
+  "url": "git+https://github.com/Zephyr424/wb-sdk.git"
+},
+"bugs": {
+  "url": "https://github.com/Zephyr424/wb-sdk/issues"
+},
+"homepage": "https://github.com/Zephyr424/wb-sdk#readme"
 }
