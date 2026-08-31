@@ -2,7 +2,7 @@
 
 > A developer-friendly spaced repetition engine for vocabulary building
 
-[![npm version](https://img.shields.io/npm/v/wb-sdk.svg)](https://www.npmjs.com/package/wb-sdk)
+[![npm version](https://img.shields.io/npm/v/wb-sdk.svg)](https://www.npmjs.com/package/@zephyr424/wb-sdk)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Zephyr424/wb-sdk/blob/main/LICENSE)
 
 **wb-sdk** is a lightweight, plug-and-play spaced repetition engine designed for developers who want to integrate intelligent vocabulary review into their applications.
@@ -25,11 +25,11 @@ Stop reinventing the wheel — just `npm install wb-sdk` and start building.
 ## 🚀 Installation
 
 ```bash
-npm install wb-sdk
+npm install @zephyr424/wb-sdk
 ```
 ### Or with Yarn:
 ```bash
-yarn add wb-sdk
+yarn add @zephyr424/wb-sdk
 ```
 
 ---
