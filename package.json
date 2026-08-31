@@ -1,5 +1,5 @@
 ﻿{
-  "name": "wb-sdk",
+  "name": "@zephyr424/wb-sdk",
   "version": "0.1.0",
   "description": "A developer-friendly spaced repetition engine for vocabulary building",
   "main": "index.js",
