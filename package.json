@@ -1,0 +1,20 @@
+﻿{
+  "name": "wb-sdk",
+  "version": "0.1.0",
+  "description": "A developer-friendly spaced repetition engine for vocabulary building",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example.js"
+  },
+  "keywords": ["vocabulary", "spaced-repetition", "flashcards", "learning"],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/wb-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/wb-sdk/issues"
+  },
+  "homepage": "https://github.com/yourusername/wb-sdk#readme"
+}
