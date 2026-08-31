@@ -1,20 +1,25 @@
-﻿{
+{
   "name": "@zephyr424/wb-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A developer-friendly spaced repetition engine for vocabulary building",
   "main": "index.js",
   "scripts": {
     "test": "node example.js"
   },
-  "keywords": ["vocabulary", "spaced-repetition", "flashcards", "learning"],
+  "keywords": [
+    "vocabulary",
+    "spaced-repetition",
+    "flashcards",
+    "learning"
+  ],
   "author": "Zephyr424",
   "license": "MIT",
   "repository": {
-  "type": "git",
-  "url": "git+https://github.com/Zephyr424/wb-sdk.git"
-},
-"bugs": {
-  "url": "https://github.com/Zephyr424/wb-sdk/issues"
-},
-"homepage": "https://github.com/Zephyr424/wb-sdk#readme"
+    "type": "git",
+    "url": "git+https://github.com/Zephyr424/wb-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zephyr424/wb-sdk/issues"
+  },
+  "homepage": "https://github.com/Zephyr424/wb-sdk#readme"
 }
