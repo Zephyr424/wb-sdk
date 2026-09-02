@@ -37,3 +37,5 @@ coverage/
 *.swp
 *.swo
 *~
+data/words.txt
+data/wordfreq-en-25000-log.json
