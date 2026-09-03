@@ -34,6 +34,23 @@ yarn add @zephyr424/wb-sdk
 
 ---
 
+## CLI Usage
+
+Install globally:
+
+```bash
+npm install -g @zephyr424/wb-sdk
+```
+### Then:
+```bash
+wb learn          # Start today's review
+wb stats          # View learning progress
+wb remind         # Check how many words are due today
+wb remind --detail # Show detailed list
+```
+
+---
+
 ## 🏃 Quick Start
 ```javascripts
 const { WordBank } = require('wb-sdk');
