@@ -4,6 +4,7 @@
 
 [![npm version](https://img.shields.io/npm/v/@zephyr424/wb-sdk.svg)](https://www.npmjs.com/package/@zephyr424/wb-sdk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![GitHub Repo stars](https://img.shields.io/github/stars/Zephyr424/wb-sdk?style=social)
 
 **wb-sdk** is a lightweight, plug-and-play spaced repetition engine designed for developers who want to integrate intelligent vocabulary review into their applications.
 
