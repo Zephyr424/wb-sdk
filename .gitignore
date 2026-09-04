@@ -39,3 +39,10 @@ coverage/
 *~
 data/words.txt
 data/wordfreq-en-25000-log.json
+# 测试文件
+test-new.js
+
+# 本地生成的数据
+backup.json
+wb-config.json
+*.log
