@@ -43,6 +43,62 @@
     review: ReviewManager;
     loadPreset(name: string): void;
   }
+  // 新增接口
+interface StatsManager {
+  total(): number;
+  mastered(): number;
+  learning(): number;
+  new(): number;
+  retentionRate(): number;
+  weakest(n: number): Word[];
+}
+
+interface PresetManager {
+  list(): string[];
+  load(name: string, merge?: boolean): void;
+  addPreset(name: string, wordArray: WordData[]): void;
+}
+
+interface IOManager {
+  exportJSON(): string;
+  exportCSV(): string;
+  importJSON(jsonStr: string): void;
+  importCSV(csvStr: string): void;
+  exportAnki(): string;
+  saveToFile(filePath: string): void;
+  loadFromFile(filePath: string): void;
+}
+
+interface SyncManager {
+  save(): void;
+  load(): void;
+  reset(): void;
+  getPath(): string;
+}
+
+interface AnalyzeManager {
+  difficulty(wordId: string): number | null;
+  mistakes(): Word[];
+  prediction(): number;
+  hotWords(n: number): Word[];
+}
+
+interface ConfigManager {
+  get(key: string): any;
+  set(key: string, value: any): void;
+  reset(): void;
+  getAll(): Record<string, any>;
+}
+
+// 扩展 WordBank 接口
+interface WordBank {
+  stats: StatsManager;
+  preset: PresetManager;
+  io: IOManager;
+  sync: SyncManager;
+  analyze: AnalyzeManager;
+  config: ConfigManager;
+}
 
   export const WordBank: new (initialWords?: WordData[]) => WordBank;
 }
